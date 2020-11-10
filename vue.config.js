@@ -6,7 +6,7 @@ module.exports = {
   outputDir: 'dist',
   assetsDir: 'static',
   outputDir: process.env.outputDir,
-  
+
   configureWebpack: {
     resolve: {
       extensions: ['.js', '.css', '.vue'],
@@ -20,7 +20,6 @@ module.exports = {
      
   },
   chainWebpack:(config)=> {
-    // config.when(process.env.NODE_ENV !== 'development', config => {
       if(process.env.NODE_ENV !== 'development'){//去除console
         config.optimization.minimizer('terser').tap(options => {
           // 注释console.*

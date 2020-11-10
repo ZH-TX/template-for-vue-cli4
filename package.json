@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve --open",
+    "serve": "vue-cli-service serve --https --port=9000",
     "test": "vue-cli-service build --mode test",
     "publish": "vue-cli-service build && vue-cli-service build --mode test",
     "build": "vue-cli-service build"

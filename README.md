@@ -17,3 +17,6 @@ npm run build
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+###关于vue.config.js说明:
+- 使用vue inspect --mode=production > output.js 可以查看到prod配置
