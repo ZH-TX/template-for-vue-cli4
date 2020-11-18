@@ -6,7 +6,9 @@ module.exports = {
   outputDir: 'dist',
   assetsDir: 'static',
   outputDir: process.env.outputDir,
+  productionSourceMap:false ,
 
+  
   configureWebpack: {
     resolve: {
       extensions: ['.js', '.css', '.vue'],

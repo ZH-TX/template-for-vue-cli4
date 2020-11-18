@@ -37,6 +37,7 @@ import {
     NoticeBar
 } from 'vant'
 
+//可以使用vue.use(a).(b)的链式操作
 Vue.use(PullRefresh)
 Vue.use(List)
 Vue.use(Col)
